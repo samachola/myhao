@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+html, body {
+    background-color: #fff;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, .title {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background: #141636;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .25px solid #f5f5f554;
+}
+
+.header .logo, .header .nav {
+    padding: 1rem 2rem;
+    color: #fff;
+}
+
+.header .logo {
+    font-size: 2rem;
+    letter-spacing: .2em;
+    font-weight: bold;
+    color: #e63946;
+}
+
+.header .nav a {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0 1rem;
+    text-decoration: none;
+}
+
+.header .nav a:hover {
+    color: #e63946;
+}
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: url('../images/banner.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.main .banner .intro {
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(20, 22, 54, 0.68);
+    display: flex;
+    flex-direction: column;
+    padding: 13rem 5rem;
+}
+
+.main .banner .intro h2 {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 5rem;
+}
+
+.learn {
+    font-size: 1rem;
+    padding: 10px 55px;
+    border: 1px solid #f5f5f5;
+    color: #FFF;
+    width: 92px;
+}
+
+.featured {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: -80px;
+}
+
+.featured-county {
+    background: url('../images/nairobi.jpg') no-repeat center;
+    background-size: cover;
+    border-radius: 5px;
+    padding: 5rem;
+    box-shadow: 0 8px 6px -6px #999;
+    color: #fff;
+    margin-righ: 10px;
+}
+
+.about {
+    width: 100%;
+    margin: 2rem auto;
+    background: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5rem 0;
+}
+
+.about .info {
+    width: 40%;
+    padding: 5rem;
+}
+
+.about .info h2 {
+    font-size: 4rem;
+}
+
+.about .about-banner {
+    width: 30rem;
+    height: 40rem;
+    background: url('../images/contruction.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.featured-projects {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.featured-projects .title h2 {
+    width: 80%;
+    margin: 2rem auto;
+    color: #141636;
+}
+
+.projects {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-wrap: break-word;
+}
+
+.projects .project {
+    width: 13rem;
+    border-radius: 5px;
+    -moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.75);
+    -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    align-self: flex-start;
+    margin-bottom: 2rem;
+}
+
+.projects .project .image {
+    width: 100%;
+    height: 200px;
+    background: url('../images/nairobi.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.projects .project .details {
+    padding: 5px;
+}
+
+.projects .project .details p {
+    font-weight: 500;
+    color: #141636;
+}
+
+.projects .project .details span {
+    font-size: 12px;
+}
+
+.projects .project .details .location {
+    font-weight: bold;
+    color: #333;
+}
+
+.projects .project .action {
+    font-size: 10px;
+    color: #141636;
+    border: 1px solid #141636;
+    padding: 2px;
+    margin: 5px;
+    width: 100px;
+    text-align: center;
+}
+
