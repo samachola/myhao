@@ -17,13 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/test', function () {
-    $name = request('name');
-    return view('test', [
-        'name' => $name,
-    ]);
-});
-
 Route::get('/register', 'AuthController@get');
 
-Route::get('/projects/{projectId}', 'ProjectsController@get');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
