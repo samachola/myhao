@@ -15,10 +15,23 @@
             <div class="logo title">MY HAO</div>
 
             <div class="nav">
-                <a href="#">HOME</a>
+                <a href="/">HOME</a>
                 <a href="#">PROJECTS</a>
+                @if (Auth::user())
                 <a href="#">MY HAO</a>
-                <a href="#">SIGN IN</a>
+                <a href="#">{{ Auth::user()->name }}</a>
+                <a href="{{ route('logout') }}"
+                    onclick="event.preventDefault();
+                            document.getElementById('logout-form').submit();">
+                    LOG OUT
+                </a>
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                    @csrf
+                </form>
+                @else
+                <a href="/login">SIGN IN</a>
+                <a href="/register">REGISTER</a>
+                @endif
             </div>
         </div>
         @yield ('content')
