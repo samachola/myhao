@@ -1,0 +1,12 @@
+dist: precise
+
+language: php
+
+php:
+  - 7.3
+
+addons:
+  postgresql: 9.6
+
+script:
+  - vendor/bin/phpunit
