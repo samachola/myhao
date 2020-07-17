@@ -45,104 +45,81 @@
             <div class="project">
                 <div class="image"></div>
                 <div class="details">
-                    <p>Nairobi Heights</p>
-                    <span class="location">City park Drive</span>
-                    <span class="size">2000m</span>
-                </div>
-                <div class="action">
-                    View
-                </div>
-            </div>
-            <div class="project">
-                <div class="image"></div>
-                <div class="details">
-                    <p>Nairobi Heights</p>
-                    <span class="location">City park Drive</span>
-                    <span class="size">2000m</span>
-                </div>
-                <div class="action">
-                    View
+                    <p>Nairobi Heights apartments</p>
+                    <span class="location"><i class="fa fa-map-marker" aria-hidden="true"></i></i> City park Drive</span>
+                    <div class="info">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i> <span class="size">Rooms: 4 | Bed: 3 | Baths: 2</span>
+                    </div>
                 </div>
             </div>
             <div class="project">
                 <div class="image"></div>
                 <div class="details">
-                    <p>Nairobi Heights</p>
-                    <span class="location">City park Drive</span>
-                    <span class="size">2000m</span>
-                </div>
-                <div class="action">
-                    View
-                </div>
-            </div>
-            <div class="project">
-                <div class="image"></div>
-                <div class="details">
-                    <p>Nairobi Heights</p>
-                    <span class="location">City park Drive</span> <span class="size">2000m</span>
-                </div>
-                <div class="action">
-                    View
+                    <p>Nairobi Heights apartments</p>
+                    <span class="location"><i class="fa fa-map-marker" aria-hidden="true"></i></i> City park Drive</span>
+                    <div class="info">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i> <span class="size">Rooms: 4 | Bed: 3 | Baths: 2</span>
+                    </div>
                 </div>
             </div>
             <div class="project">
                 <div class="image"></div>
                 <div class="details">
-                    <p>Nairobi Heights</p>
-                    <span class="location">City park Drive</span> <span class="size">2000m</span>
-                </div>
-                <div class="action">
-                    View
-                </div>
-            </div>
-            <div class="project">
-                <div class="image"></div>
-                <div class="details">
-                    <p>Nairobi Heights</p>
-                    <span class="location">City park Drive</span> <span class="size">2000m</span>
-                </div>
-                <div class="action">
-                    View
+                    <p>Nairobi Heights apartments</p>
+                    <span class="location"><i class="fa fa-map-marker" aria-hidden="true"></i></i> City park Drive</span>
+                    <div class="info">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i> <span class="size">Rooms: 4 | Bed: 3 | Baths: 2</span>
+                    </div>
                 </div>
             </div>
             <div class="project">
                 <div class="image"></div>
                 <div class="details">
-                    <p>Nairobi Heights</p>
-                    <span class="location">City park Drive</span> <span class="size">2000m</span>
-                </div>
-                <div class="action">
-                    View
-                </div>
-            </div>
-            <div class="project">
-                <div class="image"></div>
-                <div class="details">
-                    <p>Nairobi Heights</p>
-                    <span class="location">City park Drive</span> <span class="size">2000m</span>
-                </div>
-                <div class="action">
-                    View
+                    <p>Nairobi Heights apartments</p>
+                    <span class="location"><i class="fa fa-map-marker" aria-hidden="true"></i></i> City park Drive</span>
+                    <div class="info">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i> <span class="size">Rooms: 4 | Bed: 3 | Baths: 2</span>
+                    </div>
                 </div>
             </div>
             <div class="project">
                 <div class="image"></div>
                 <div class="details">
-                    <p>Nairobi Heights</p>
-                    <span class="location">City park Drive</span> <span class="size">2000m</span>
-                </div>
-                <div class="action">
-                    View
+                    <p>Nairobi Heights apartments</p>
+                    <span class="location"><i class="fa fa-map-marker" aria-hidden="true"></i></i> City park Drive</span>
+                    <div class="info">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i> <span class="size">Rooms: 4 | Bed: 3 | Baths: 2</span>
+                    </div>
                 </div>
             </div>
             <div class="project">
                 <div class="image"></div>
                 <div class="details">
-                    <p>Nairobi Heights</p>
-                    <span class="location">City park Drive</span> <span class="size">2000m</span>
+                    <p>Nairobi Heights apartments</p>
+                    <span class="location"><i class="fa fa-map-marker" aria-hidden="true"></i></i> City park Drive</span>
+                    <div class="info">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i> <span class="size">Rooms: 4 | Bed: 3 | Baths: 2</span>
+                    </div>
                 </div>
-                <div class="action">
-                    View
+            </div>
+            <div class="project">
+                <div class="image"></div>
+                <div class="details">
+                    <p>Nairobi Heights apartments</p>
+                    <span class="location"><i class="fa fa-map-marker" aria-hidden="true"></i></i> City park Drive</span>
+                    <div class="info">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i> <span class="size">Rooms: 4 | Bed: 3 | Baths: 2</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="image"></div>
+                <div class="details">
+                    <p>Nairobi Heights apartments</p>
+                    <span class="location"><i class="fa fa-map-marker" aria-hidden="true"></i></i> City park Drive</span>
+                    <div class="info">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i> <span class="size">Rooms: 4 | Bed: 3 | Baths: 2</span>
+                    </div>
                 </div>
             </div>
         </div>

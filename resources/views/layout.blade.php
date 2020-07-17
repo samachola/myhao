@@ -8,7 +8,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="{{ URL::asset('css/style.css')}}">
+        <script src="https://use.fontawesome.com/1a0acd2580.js"></script>
     </head>
     <body>
         <div class="header">
@@ -16,9 +17,10 @@
 
             <div class="nav">
                 <a href="/">HOME</a>
-                <a href="#">PROJECTS</a>
+                <a href="/projects">PROJECTS</a>
+                <a href="#">MARKETPLACE</a>
                 @if (Auth::user())
-                <a href="#">MY HAO</a>
+                <a href="/projects/myhao">MY HAO</a>
                 <a href="#">{{ Auth::user()->name }}</a>
                 <a href="{{ route('logout') }}"
                     onclick="event.preventDefault();
