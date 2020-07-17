@@ -53,6 +53,20 @@
                     </div>
 
                     <div class="form-group row">
+                        <label for="id_number" class="col-md-6s col-form-label text-md-right">{{ __('Your ID/Passport') }}</label>
+
+                        <div class="col-md-6">
+                            <input id="id_number" type="text" class="form-control @error('id_number') is-invalid @enderror" name="id_number" value="{{ old('id_number') }}" required autocomplete="id_number">
+
+                            @error('id_number')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
                         <label for="password" class="col-md-6 col-form-label text-md-right">{{ __('Password') }}</label>
 
                         <div class="col-md-6">
