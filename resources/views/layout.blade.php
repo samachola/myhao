@@ -8,7 +8,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-        <link rel="stylesheet" href="{{ URL::asset('css/style.css')}}">
+        <link rel="stylesheet" href="{{ secure_asset('css/style.css')}}">
         <script src="https://use.fontawesome.com/1a0acd2580.js"></script>
     </head>
     <body>
